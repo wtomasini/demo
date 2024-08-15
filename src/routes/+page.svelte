@@ -7,6 +7,8 @@
     import TickDemo from "$lib/tickDemo.svelte";
     import StoreDemo from "$lib/store/counterDemo.svelte";
     import ClockStore from "$lib/store/clockStore.svelte";
+    import SlideyBar from "$lib/ui/slideyBar.svelte";
+    import Spring from "$lib/ui/spring.svelte";
     import Logo from "$lib/logo.svelte";
     import Footer from "$lib/footer.svelte";
 
@@ -28,12 +30,20 @@
 
 <BindGroups/>
 
+<br>
 <TickDemo/>
 
 <StoreDemo/>
 
 <ClockStore/>
 
+<br>
+<SlideyBar/>
+
+<Spring/>
+
+<br>
+<br>
 <Footer/>
 
 <style>

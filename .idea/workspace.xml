@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bf1f73b-e0d0-4c4e-bae4-f559127f31e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/thing.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/counter.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/counter.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/sellout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/sellout.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/ui/slideyBar.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/ui/spring.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/footer.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +21,26 @@
         <option value="nested" />
         <option value="counter" />
         <option value="emails" />
+        <option value="secret" />
+        <option value="superSecret" />
+        <option value="personalData" />
+        <option value="imputDemo" />
+        <option value="checkEmail" />
+        <option value="footer" />
+        <option value="checkboxes" />
+        <option value="textarea" />
+        <option value="logo" />
+        <option value="notGptWrapper" />
+        <option value="tickDemo" />
+        <option value="JavaScript File" />
+        <option value="incrementer" />
+        <option value="decrementer" />
+        <option value="storeDemo" />
+        <option value="clockStore" />
+        <option value="elapsedStore" />
+        <option value="setCounter" />
+        <option value="slideyBar" />
+        <option value="spring" />
       </list>
     </option>
   </component>
@@ -32,24 +51,35 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2jwFT0ROSnVKof539K8GVQTFiCB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/will/git/todo-demo&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/will/git/todo-demo/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/will/git/todo-demo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Confirmation",
+    "ts.external.directory.path": "/home/will/git/todo-demo/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lib/store" />
+      <recent name="$PROJECT_DIR$/src/lib/counterStore" />
+      <recent name="$PROJECT_DIR$/src/lib" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,6 +100,7 @@
       <workItem from="1722292663243" duration="3539000" />
       <workItem from="1723732367032" duration="864000" />
       <workItem from="1723733612790" duration="5512000" />
+      <workItem from="1723739132753" duration="21909000" />
     </task>
     <servers />
   </component>
