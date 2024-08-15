@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bf1f73b-e0d0-4c4e-bae4-f559127f31e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/counter.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/sellout.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/thing.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/counter.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/counter.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/sellout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/sellout.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +21,7 @@
       <list>
         <option value="nested" />
         <option value="counter" />
+        <option value="emails" />
       </list>
     </option>
   </component>
@@ -67,6 +68,8 @@
       <workItem from="1722290237549" duration="956000" />
       <workItem from="1722291594599" duration="1065000" />
       <workItem from="1722292663243" duration="3539000" />
+      <workItem from="1723732367032" duration="864000" />
+      <workItem from="1723733612790" duration="5512000" />
     </task>
     <servers />
   </component>

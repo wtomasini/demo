@@ -18,20 +18,28 @@
 </script>
 
 <button on:click={multiCount}>
-    Clicked {count}
-    {count ===1 ? 'time' : 'times'}
+    Clicked {count - 1}
+    {count === 2 ? 'time' : 'times'}
 </button>
 <button on:click={reset}>
     Reset
 </button>
 
-<h3>Math time!</h3>
+{#if count > 80}
+    <p>That's enough numbers for now, don't you think?</p>
+{:else if count < 2}
+    <p>Go ahead, click the buttons</p>
+{:else if count === 68}
+    <p>That's my favorite number!</p>
+{/if}
+
+<h2>Math Time!</h2>
 <p>{numbers.join(' + ')} = {sum}</p>
 
 <style>
-    h3 {
+    h2 {
         color: goldenrod;
         font-size: 20px;
-        font-family: cursive;
+        font-family: "Papyrus", cursive;
     }
 </style>
