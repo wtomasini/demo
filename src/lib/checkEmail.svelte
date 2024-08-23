@@ -54,3 +54,9 @@
 {:catch error}
     <p style="color: red">{error.message}</p>
 {/await}
+
+<style>
+    h3 {
+        color: purple;
+    }
+</style>

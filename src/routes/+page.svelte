@@ -4,18 +4,19 @@
     import InputDemo from "$lib/inputDemo.svelte";
     import CheckEmail from "$lib/checkEmail.svelte";
     import BindGroups from "$lib/bindGroups.svelte";
-    import TickDemo from "$lib/tickDemo.svelte";
-    import StoreDemo from "$lib/store/counterDemo.svelte";
-    import ClockStore from "$lib/store/clockStore.svelte";
+    import Transition from "$lib/transitionDemo.svelte";
     import SlideyBar from "$lib/ui/slideyBar.svelte";
-    import Spring from "$lib/ui/spring.svelte";
-    import Logo from "$lib/logo.svelte";
+    import Todo from "$lib/ui/todoDemo.svelte";
+    import Editbox from "$lib/ui/editbox.svelte";
+
     import Footer from "$lib/footer.svelte";
 
     const sell = {
         amount: "42",
         username: "willTomasini"
     };
+
+    export let data;
 </script>
 
 <h1>You found Will's website</h1>
@@ -31,16 +32,17 @@
 <BindGroups/>
 
 <br>
-<TickDemo/>
 
-<StoreDemo/>
-
-<ClockStore/>
+<Todo/>
 
 <br>
-<SlideyBar/>
+<Transition/>
 
-<Spring/>
+<Editbox/>
+
+<br>
+<br>
+<SlideyBar/>
 
 <br>
 <br>

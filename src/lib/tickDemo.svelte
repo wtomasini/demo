@@ -21,7 +21,7 @@
     }
 </script>
 
-<h3>This is a demonstration of what ticks can do</h3>
+<h2>This is a demonstration of what ticks can do</h2>
 
 <textarea value={text} on:keydown={handleKeydown}></textarea>
 
@@ -30,5 +30,9 @@
         width: 100%;
         height: 100px;
         resize: none;
+    }
+    h2 {
+        color: darkcyan;
+        font-family: "Papyrus", cursive;
     }
 </style>

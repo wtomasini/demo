@@ -47,3 +47,10 @@
 {:else}
     <p>Oh come on, you can't be <strong>that</strong> boring. Pick at least one hobby.</p>
 {/if}
+
+<style>
+    h3 {
+        color: purple;
+        outline: black 5px;
+    }
+</style>

@@ -20,4 +20,7 @@
         display: block;
         width: 100%;
     }
+    h3 {
+        color: purple;
+    }
 </style>
