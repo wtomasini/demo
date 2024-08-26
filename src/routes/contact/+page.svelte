@@ -6,7 +6,9 @@
     export let form;
 </script>
 
-<h1>Contact</h1>
+<h1>I'll get around to implementing this eventually.</h1>
+
+<h3>When I'm done you'll actually be able to send me emails, and I might actually read them.</h3>
 
 <div>
     {#if form?.error}

@@ -20,6 +20,10 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource/comic-mono": "^5.0.11",
+		"@fontsource/creepster": "^5.0.13",
+		"@fontsource/poppins": "^5.0.15",
+		"@fontsource/quintessential": "^5.0.21",
 		"elizabot": "^0.0.3",
 		"svelte-sound": "^0.6.0",
 		"tippy.js": "^6.3.7"

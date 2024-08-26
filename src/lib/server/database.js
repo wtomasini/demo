@@ -5,7 +5,7 @@ export function getMessages(userid) {
         db.set(userid, [{
             id: crypto.randomUUID(),
             subject: "Re: sandwich theory",
-            content: "Then what role do croutons play in all of this?",
+            content: "Then what role do croutons play in your model?",
         }]);
     }
 
@@ -39,9 +39,9 @@ export function deleteMessage(userid, msgid) {
     }
 }
 
-const tdb = new Map();
-
 // API Stuff
+
+const tdb = new Map();
 
 export function getTodos(userid) {
     if (!tdb.has(userid)) {

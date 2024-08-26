@@ -1,6 +1,8 @@
 <script>
     import {tick} from 'svelte';
 
+    import '@fontsource/quintessential';
+
     let text = 'Select some text and hit tab to change its case';
 
     async function handleKeydown(event) {
@@ -33,6 +35,6 @@
     }
     h2 {
         color: darkcyan;
-        font-family: "Papyrus", cursive;
+        font-family: "quintessential", cursive;
     }
 </style>

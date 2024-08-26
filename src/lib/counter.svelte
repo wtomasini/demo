@@ -1,4 +1,6 @@
 <script>
+    import '@fontsource/quintessential';
+
     let count = 1;
     let numbers = [1];
 
@@ -40,6 +42,6 @@
     h2 {
         color: goldenrod;
         font-size: 20px;
-        font-family: "Papyrus", cursive;
+        font-family: "quintessential", cursive;
     }
 </style>

@@ -1,4 +1,7 @@
 <script>
+    import '@fontsource/creepster';
+    import '@fontsource/quintessential';
+
     let name = "bossman";
 
     let ssn = 111552222;
@@ -30,7 +33,7 @@
 <style>
     h2 {
         color: darkcyan;
-        font-family: "Papyrus", cursive;
+        font-family: "quintessential", cursive;
     }
     h3 {
         color: purple;
@@ -38,8 +41,9 @@
     }
     strong {
         color: blue;
-        font-size: 20px;
-        font-family: "Chiller", cursive;
+        font-size: 18px;
+        font-weight: lighter;
+        font-family: "creepster", cursive;
         outline: black 5px;
     }
 </style>

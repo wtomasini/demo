@@ -1,5 +1,6 @@
 <script>
     import Eliza from 'elizabot';
+    import '@fontsource/comic-mono';
     import {
         beforeUpdate,
         afterUpdate
@@ -78,7 +79,7 @@
 
 <style>
     h2, h3 {
-        font-family: "Comic Sans MS", "cursive";
+        font-family: "comic-mono", "cursive";
         color: darkblue;
     }
 

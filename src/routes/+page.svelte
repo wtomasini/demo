@@ -11,12 +11,12 @@
 
     import Footer from "$lib/footer.svelte";
 
+    import '@fontsource/comic-mono';
+
     const sell = {
         amount: "42",
         username: "willTomasini"
     };
-
-    export let data;
 </script>
 
 <h1>You found Will's website</h1>
@@ -51,7 +51,7 @@
 <style>
     h1 {
         color: darkblue;
-        font-family: "Comic Sans MS", cursive;
+        font-family: "comic-mono", cursive;
         font-size: 2em;
     }
 </style>

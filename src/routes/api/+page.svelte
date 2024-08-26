@@ -15,6 +15,8 @@
 
 {#if number !== undefined}
     <p>You rolled a {number}</p>
+{:else}
+    <p>Waiting for dice roll...</p>
 {/if}
 
 <br>

@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bf1f73b-e0d0-4c4e-bae4-f559127f31e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/routes/api/todo/[id]/+server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/counter.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/counter.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/dropdown.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/dropdown.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/footer.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/gptWrapper.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/gptWrapper.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/inputDemo.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/inputDemo.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/server/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/server/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/tickDemo.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/tickDemo.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/about/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/about/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/advanced/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/advanced/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/api/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/api/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/api/todo/+server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/api/todo/+server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/contact/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/contact/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +64,7 @@
         <option value="dropdown" />
         <option value="+layout" />
         <option value="+page" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -73,6 +89,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/will/git/website",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -116,6 +133,7 @@
       <workItem from="1724337428691" duration="31959000" />
       <workItem from="1724371591693" duration="17000" />
       <workItem from="1724681678691" duration="15000" />
+      <workItem from="1724682275034" duration="5081000" />
     </task>
     <servers />
   </component>

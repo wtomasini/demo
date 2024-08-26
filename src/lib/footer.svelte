@@ -1,7 +1,7 @@
 <script>
     import Splash from './splash.svelte';
+    import '@fontsource/comic-mono';
 
-    let boom = '../../vine-boom.mp3';
     let mPos = { x: 0, y: 0 };
 
     $: render = false;
@@ -28,7 +28,7 @@
 <style>
     h2 {
         color: darkblue;
-        font-family: "Comic Sans MS", cursive;
+        font-family: "comic-mono", cursive;
         font-size: 25px;
     }
 

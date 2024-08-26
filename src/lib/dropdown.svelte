@@ -1,10 +1,13 @@
 <script>
+    import '@fontsource/poppins';
+
     let questions = [
         { id: 1, text: "Who made this website?" },
         { id: 2, text: "What's Authwise?" },
         { id: 3, text: "Where are you located?" },
         { id: 4, text: "What are your three favorite colors?" },
-        { id: 5, text: "Wow, you're sooo cool! Can I be your girlfriend?" }
+        { id: 5, text: "Wow, you're sooo cool! Can I be your girlfriend?" },
+        { id: 6, text: "This website's design SUCKS! Are you actually stupid?" }
     ];
 
     let answers = [
@@ -27,6 +30,11 @@
             id: 5,
             text: "Due to some unforeseen personal circumstances, I am not accepting girlfriend applications at the moment. " +
                 "I apologize for the inconvenience."
+        },
+        {
+            id:6,
+            text: "Hey buddy, I'm a software developer, not a graphic designer. If you know one who would work for me without " +
+                "pay and put up with my exacting standards my contact page is open."
         }
     ];
 
@@ -45,7 +53,12 @@
 
 <style>
     h3 {
-        color: purple;
+        color: darkcyan;
         outline: black 5px;
+    }
+
+    strong {
+        font-family: "poppins", sans-serif;
+        color: blue;
     }
 </style>
