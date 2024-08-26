@@ -17,7 +17,7 @@
     <h2>The mouse pointer is hovering over this footer at {mPos.x}, {mPos.y}</h2>
     <p>
         This website is written in <button on:click={logoSlam}>Svelte</button> and uses basically every trick and technique I could think of.
-        I left off on Slot Props.
+        I left off on Slot Props/Other Handlers
     </p>
     {#if render}
         <Splash/>
