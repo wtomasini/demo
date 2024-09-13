@@ -9,6 +9,8 @@
     export let data;
 </script>
 
+<h1>The API Zone (under construction)</h1>
+
 <h3>Roll the dice with API power</h3>
 
 <button on:click={roll}>Roll the dice</button>

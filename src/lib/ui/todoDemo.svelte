@@ -7,7 +7,7 @@
         { done: false, description: "Feed the dog" },
         { done: false, description: "Water plants" },
         { done: false, description: "Ponder orb" },
-        { done: false, description: "Let the tide drag you away" },
+        { done: false, description: "Get dragged away by the tide" },
         { done: false, description: "Do laundry" },
     ]);
 </script>

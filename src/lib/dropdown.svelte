@@ -7,7 +7,7 @@
         { id: 3, text: "Where are you located?" },
         { id: 4, text: "What are your three favorite colors?" },
         { id: 5, text: "Wow, you're sooo cool! Can I be your girlfriend?" },
-        { id: 6, text: "This website's design SUCKS! Are you actually stupid?" }
+        { id: 6, text: "This website's design SUCKS! Are you actually stupid?" },
     ];
 
     let answers = [
@@ -21,21 +21,21 @@
         {
             id: 3,
             text: "I live in Snohomish, Washington, United States, but spend most of my waking hours in the nearby city " +
-                "of Bothell. Authwise is based in downtown Seattle, and you can find us at 1201 2nd Ave, 9th floor, room 942B."},
+                "of Bothell. Authwise is based in Seattle, and you can find us (for now) at 1201 2nd Ave, 9th floor, room 942B."},
         {
             id: 4,
             text: "Purple, slate gray, and sea green."
         },
         {
             id: 5,
-            text: "Due to some unforeseen personal circumstances, I am not accepting girlfriend applications at the moment. " +
-                "I apologize for the inconvenience."
+            text: "Unfortunately, due to unforeseen personal developments I'm not accepting girlfriend applications at the moment. " +
+                "Sorry for the inconvenience."
         },
         {
             id:6,
             text: "Hey buddy, I'm a software developer, not a graphic designer. If you know one who would work for me without " +
-                "pay and put up with my exacting standards my contact page is open."
-        }
+                "pay my contact page is open."
+        },
     ];
 
     let selected = questions[0];
@@ -50,6 +50,9 @@
     {/each}
 </select>
 <p>{answers?.at(selected.id - 1)?.text}</p>
+{#if selected.id === 1}
+    <img src={'thisguy.jpg'} alt="" width={200}>
+{/if}
 
 <style>
     h3 {
