@@ -9,6 +9,8 @@
 
 <h1>This page showcases some more nitty-gritty stuff</h1>
 
+<a href="https://linktr.ee/cidstation">Check this out if you live in the Seattle area</a>
+
 <TickDemo/>
 
 <ClockStore/>

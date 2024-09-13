@@ -11,7 +11,7 @@
     ];
 
     let answers = [
-        { id: 1, text: "This website was made by me, Will, as practice to work on Authwise's website."},
+        { id: 1, text: "This website was made by me, Will, as a way to practice web development for my employer, Authwise."},
         {
             id: 2,
             text: "Authwise is an upcoming identity provider that features near-endless scalability, support for " +
@@ -33,7 +33,7 @@
         },
         {
             id:6,
-            text: "Hey buddy, I'm a software developer, not a graphic designer. If you know one who would work for me without " +
+            text: "Look man, I'm a software developer, not a graphic designer. If you know one who would work for me without " +
                 "pay my contact page is open."
         },
     ];
