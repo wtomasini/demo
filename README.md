@@ -1,1 +1,1 @@
-The best website in the world
+The greatest website on the internet
