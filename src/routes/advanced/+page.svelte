@@ -9,7 +9,10 @@
 
 <h1>This page showcases some more nitty-gritty stuff</h1>
 
-<a href="https://linktr.ee/cidstation">Check this out if you live in the Seattle area</a>
+<a href="https://linktr.ee/cidstation">
+    Check this out if you live in the Seattle area. It's not related to the rest of the page but this is
+    my website so I can put it here.
+</a>
 
 <TickDemo/>
 
