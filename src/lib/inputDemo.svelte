@@ -28,7 +28,7 @@
     Check this box to affirm that I am <strong>cooler</strong> than you
 </label>
 <br>
-<button disabled={!affirms} on:click={() => alert("Cool.")} >Button that only <strong>cool</strong> people can press</button>
+<button disabled={!affirms} on:click={() => alert("Cool")} >Button that only <strong>cool</strong> people can press</button>
 
 <style>
     h2 {
