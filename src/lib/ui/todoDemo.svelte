@@ -12,6 +12,7 @@
     ]);
 </script>
 
+<h3>And here's a to-do list, this was all the site was supposed to be at first.</h3>
 <div class="board">
     <input
             placeholder="what needs to be done?"
@@ -24,12 +25,12 @@
     />
 
     <div class="todo">
-        <h2>todo</h2>
+        <h2>To-Do</h2>
         <TodoList store={todos} done={false} />
     </div>
 
     <div class="done">
-        <h2>done</h2>
+        <h2>Done</h2>
         <TodoList store={todos} done={true} />
     </div>
 </div>

@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bf1f73b-e0d0-4c4e-bae4-f559127f31e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/dropdown.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/dropdown.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/inputDemo.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/inputDemo.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/blog/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/blog/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/contact/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/contact/+page.svelte" afterDir="false" />
-    </list>
+    <list default="true" id="8bf1f73b-e0d0-4c4e-bae4-f559127f31e5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +118,7 @@
       <workItem from="1724682275034" duration="5081000" />
       <workItem from="1726258346138" duration="4486000" />
       <workItem from="1726606349077" duration="315000" />
-      <workItem from="1727194924728" duration="1703000" />
+      <workItem from="1727194924728" duration="1951000" />
     </task>
     <servers />
   </component>
