@@ -1,6 +1,6 @@
 export const posts = [
     {
-        slug: 'sept',
+        slug: 'sep',
         title: 'September',
         content: '<p>Blog posts for September will go here</p>'
     },

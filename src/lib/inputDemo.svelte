@@ -25,7 +25,7 @@
 
 <label>
     <input type="checkbox" bind:checked={affirms}>
-    Check this box to affirm that I am <strong>cooler</strong> than you
+    Check this box to affirm that you are <strong>cool</strong> enough
 </label>
 <br>
 <button disabled={!affirms} on:click={() => alert("Cool")} >Button that only <strong>cool</strong> people can press</button>

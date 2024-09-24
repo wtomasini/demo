@@ -20,7 +20,7 @@
         },
         {
             id: 3,
-            text: "I live in Snohomish, Washington, United States, but spend most of my waking hours in the nearby city " +
+            text: "I live in Snohomish, Washington, but spend most of my waking hours in the nearby city " +
                 "of Bothell. Authwise is based in Seattle, and you can find us (for now) at 1201 2nd Ave, 9th floor, room 942B."},
         {
             id: 4,
@@ -28,13 +28,13 @@
         },
         {
             id: 5,
-            text: "Unfortunately, due to unforeseen personal developments I'm not accepting girlfriend applications at the moment. " +
+            text: "Unfortunately, due to unforeseen personal circumstances I'm not accepting girlfriend applications at the moment. " +
                 "Sorry for the inconvenience."
         },
         {
             id:6,
             text: "Look man, I'm a software developer, not a graphic designer. If you know one who would work for me without " +
-                "pay my contact page is open."
+                "pay my contact page is open.\nThe UX does need work, though..."
         },
     ];
 
@@ -42,7 +42,7 @@
 </script>
 
 
-<h3>Now you get to do the talking, ask away.</h3>
+<h3>Now <strong>you</strong> get to do the talking, ask away.</h3>
 
 <select bind:value={selected}>
     {#each questions as question}
@@ -52,6 +52,7 @@
 <p>{answers?.at(selected.id - 1)?.text}</p>
 {#if selected.id === 1}
     <img src={'thisguy.jpg'} alt="" width={200}>
+    <p>Here you can see the one good picture of me</p>
 {/if}
 
 <style>

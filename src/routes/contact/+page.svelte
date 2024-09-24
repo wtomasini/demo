@@ -10,6 +10,14 @@
 
 <h3>When I'm done you'll actually be able to send me emails, and I might actually read them.</h3>
 
+<span>In the meantime, you can </span>
+<a href="https://www.instagram.com/wtomasinii/">follow me on Instagram</a>
+<br>
+<span>And until I set up that fancy message system you can always just </span>
+<a href="mailto:will@bentomasini.com">email me the old-fashioned way.</a>
+
+<p></p>
+
 <div>
     {#if form?.error}
         <p class="error">{form.error}</p>
