@@ -50,7 +50,7 @@
 {#await promise}
     <p>Waiting...</p>
 {:then data}
-    <p>{data}</p>
+    <p class="container">{data}</p>
 {:catch error}
     <p style="color: red">{error.message}</p>
 {/await}
@@ -58,5 +58,9 @@
 <style>
     h3 {
         color: purple;
+    }
+
+    .container {
+        max-width: 100%;
     }
 </style>
